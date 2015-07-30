@@ -1,0 +1,6 @@
+# Disable line endings normalization, force crlf
+* -text
+
+# Merge strategies
+*.csproj -text merge=union
+*.sln -text merge=union
