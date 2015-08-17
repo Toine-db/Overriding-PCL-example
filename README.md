@@ -1,10 +1,10 @@
 #Overriding PCL example
+###(for Mobile / Cross-platform development)
+When developing cross-platform you more than often need to write platform specific code or you **can’t find portable libraries** but only platform specific ones. Patterns like dependency injection could be great tool to use platform specific code or libraries when developing cross-platform. But this can quickly become really messy and shift business logic to the UI projects.
 
-When developing cross-platform you more than often need to write platform specific code or you can’t find portable libraries but only platform specific ones. Patterns like dependency injection could be great tool to use platform specific code or libraries when developing cross-platform. But this can quickly become really messy and shift business logic to the UI projects.
+Fortunately there is another not very known solution to handle this, that some people call the **‘Advanced PCL’** or **‘Bait and Switch’** pattern. This is a good solution without needing to hack, to implementing 3rd party components or do any kind of scripting. It’s quite hard to find an example or article about this approach and the few that can be found are, in my opinion, clouded and over complicated by other fancy stuff or described way too complex in relation to how easy this basic functionality inside Visual Studio really is.
 
-Fortunately there is another not very known solution to handle this, that some people call the ‘Advanced PCL’ or ‘Bait and Switch’ pattern. This is a good solution without needing to hack, to implementing 3rd party components or do any kind of scripting. It’s quite hard to find an example or article about this approach and the few that can be found are, in my opinion, clouded and over complicated by other fancy stuff or described way too complex in relation to how easy this basic functionality inside Visual Studio really is.
-
-Therefore my explanation and example of this approach containing the following subjects:
+Therefore my explanation and very **litle and simple example** of this approach containing the following subjects:
 
 1. The Principal
 2. The Mechanisme
